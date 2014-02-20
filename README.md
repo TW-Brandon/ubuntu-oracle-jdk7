@@ -4,21 +4,21 @@ check java version
 ======================================
 java -version
 
-# remove openJDK
+remove openJDK
 ======================================
 sudo apt-get remove openjdk-6-jre-headless
 
-# install Oracle JDK7
+install Oracle JDK7
 ======================================
-# sudo add-apt-repository ppa:webupd8team/java
+sudo add-apt-repository ppa:webupd8team/java
 
-# sudo apt-get update
+sudo apt-get update
 
-# sudo apt-get install oracle-java7-installer
+sudo apt-get install oracle-java7-installer
 
 check java version again
 ======================================
-# java -version
+java -version
 
 java version "1.7.0_51"                                 
 Java(TM) SE Runtime Environment (build 1.7.0_51-bl3)    
